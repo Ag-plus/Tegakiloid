@@ -5,6 +5,14 @@ Ag++++++++++
 	テガキロイド Version1.0.0.2
 
 Ag++
+注意
+Ag++
+
+	GitHubに掲載するためPlugin自体はcommitから外しています。
+	Pluginはそのうちどうにか利用規約に反しない範囲で載せようと思いますので、
+	とりあえず今は公式ストアのほうからDLしてください。
+
+Ag++
 概要
 Ag++
 
@@ -57,9 +65,9 @@ Ag++++++
 	Tegakiloid.apkをAndroid端末のSDカード上にコピーします。
 	ファイルブラウザアプリ(アストロなど)でapkファイルをタップすると
 	インストールが始まります。
-	作業が面倒な場合は＊＊＊でも同じものを配布していますので
+	作業が面倒な場合はhttps://github.com/Ag-plus/Tegakiloid/blob/master/Android/Tegakiloid.apkでも同じものを配布していますので
 	こちらからインストールして下さい。
-	なお、＊＊＊にiOS版の信号送信アプリのソースも置いてありますので
+	なお、https://github.com/Ag-plus/Tegakiloid/tree/master/iOSにiOS版の信号送信アプリのソースも置いてありますので
 	iOSアプリ開発のできる環境をお持ちの方はiOSでもTEGAKILOIDを使用することができます。
 
 	(2)
