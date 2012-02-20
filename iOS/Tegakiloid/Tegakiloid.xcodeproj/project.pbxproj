@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A14ED45A14E5170000A461CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14ED45914E516FF00A461CB /* UIKit.framework */; };
+		A14ED45C14E5170000A461CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14ED45B14E5170000A461CB /* Foundation.framework */; };
+		A14ED45E14E5170000A461CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14ED45D14E5170000A461CB /* CoreGraphics.framework */; };
+		A14ED46414E5170000A461CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A14ED46214E5170000A461CB /* InfoPlist.strings */; };
+		A14ED46614E5170000A461CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A14ED46514E5170000A461CB /* main.m */; };
+		A14ED46A14E5170000A461CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A14ED46914E5170000A461CB /* AppDelegate.m */; };
+		A14ED46D14E5170000A461CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14ED46C14E5170000A461CB /* ViewController.m */; };
+		A14ED47014E5170000A461CB /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A14ED46E14E5170000A461CB /* ViewController_iPhone.xib */; };
+		A14ED47314E5170000A461CB /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A14ED47114E5170000A461CB /* ViewController_iPad.xib */; };
+		A14ED47F14E51B6600A461CB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A14ED47E14E51B6600A461CB /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A14ED45514E516FF00A461CB /* Tegakiloid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tegakiloid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14ED45914E516FF00A461CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A14ED45B14E5170000A461CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A14ED45D14E5170000A461CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A14ED46114E5170000A461CB /* Tegakiloid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tegakiloid-Info.plist"; sourceTree = "<group>"; };
+		A14ED46314E5170000A461CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A14ED46514E5170000A461CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A14ED46714E5170000A461CB /* Tegakiloid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tegakiloid-Prefix.pch"; sourceTree = "<group>"; };
+		A14ED46814E5170000A461CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A14ED46914E5170000A461CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A14ED46B14E5170000A461CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A14ED46C14E5170000A461CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A14ED46F14E5170000A461CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		A14ED47214E5170000A461CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		A14ED47E14E51B6600A461CB /* Settings.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A14ED45214E516FF00A461CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14ED45A14E5170000A461CB /* UIKit.framework in Frameworks */,
+				A14ED45C14E5170000A461CB /* Foundation.framework in Frameworks */,
+				A14ED45E14E5170000A461CB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A14ED44A14E516FF00A461CB = {
+			isa = PBXGroup;
+			children = (
+				A14ED47E14E51B6600A461CB /* Settings.bundle */,
+				A14ED45F14E5170000A461CB /* Tegakiloid */,
+				A14ED45814E516FF00A461CB /* Frameworks */,
+				A14ED45614E516FF00A461CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A14ED45614E516FF00A461CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A14ED45514E516FF00A461CB /* Tegakiloid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A14ED45814E516FF00A461CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A14ED45914E516FF00A461CB /* UIKit.framework */,
+				A14ED45B14E5170000A461CB /* Foundation.framework */,
+				A14ED45D14E5170000A461CB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A14ED45F14E5170000A461CB /* Tegakiloid */ = {
+			isa = PBXGroup;
+			children = (
+				A14ED46814E5170000A461CB /* AppDelegate.h */,
+				A14ED46914E5170000A461CB /* AppDelegate.m */,
+				A14ED46B14E5170000A461CB /* ViewController.h */,
+				A14ED46C14E5170000A461CB /* ViewController.m */,
+				A14ED46E14E5170000A461CB /* ViewController_iPhone.xib */,
+				A14ED47114E5170000A461CB /* ViewController_iPad.xib */,
+				A14ED46014E5170000A461CB /* Supporting Files */,
+			);
+			path = Tegakiloid;
+			sourceTree = "<group>";
+		};
+		A14ED46014E5170000A461CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A14ED46114E5170000A461CB /* Tegakiloid-Info.plist */,
+				A14ED46214E5170000A461CB /* InfoPlist.strings */,
+				A14ED46514E5170000A461CB /* main.m */,
+				A14ED46714E5170000A461CB /* Tegakiloid-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A14ED45414E516FF00A461CB /* Tegakiloid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14ED47614E5170000A461CB /* Build configuration list for PBXNativeTarget "Tegakiloid" */;
+			buildPhases = (
+				A14ED45114E516FF00A461CB /* Sources */,
+				A14ED45214E516FF00A461CB /* Frameworks */,
+				A14ED45314E516FF00A461CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tegakiloid;
+			productName = Tegakiloid;
+			productReference = A14ED45514E516FF00A461CB /* Tegakiloid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A14ED44C14E516FF00A461CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A14ED44F14E516FF00A461CB /* Build configuration list for PBXProject "Tegakiloid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A14ED44A14E516FF00A461CB;
+			productRefGroup = A14ED45614E516FF00A461CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A14ED45414E516FF00A461CB /* Tegakiloid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A14ED45314E516FF00A461CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14ED46414E5170000A461CB /* InfoPlist.strings in Resources */,
+				A14ED47014E5170000A461CB /* ViewController_iPhone.xib in Resources */,
+				A14ED47314E5170000A461CB /* ViewController_iPad.xib in Resources */,
+				A14ED47F14E51B6600A461CB /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A14ED45114E516FF00A461CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14ED46614E5170000A461CB /* main.m in Sources */,
+				A14ED46A14E5170000A461CB /* AppDelegate.m in Sources */,
+				A14ED46D14E5170000A461CB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A14ED46214E5170000A461CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14ED46314E5170000A461CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A14ED46E14E5170000A461CB /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14ED46F14E5170000A461CB /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A14ED47114E5170000A461CB /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14ED47214E5170000A461CB /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A14ED47414E5170000A461CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A14ED47514E5170000A461CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A14ED47714E5170000A461CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tegakiloid/Tegakiloid-Prefix.pch";
+				INFOPLIST_FILE = "Tegakiloid/Tegakiloid-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A14ED47814E5170000A461CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tegakiloid/Tegakiloid-Prefix.pch";
+				INFOPLIST_FILE = "Tegakiloid/Tegakiloid-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A14ED44F14E516FF00A461CB /* Build configuration list for PBXProject "Tegakiloid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14ED47414E5170000A461CB /* Debug */,
+				A14ED47514E5170000A461CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14ED47614E5170000A461CB /* Build configuration list for PBXNativeTarget "Tegakiloid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14ED47714E5170000A461CB /* Debug */,
+				A14ED47814E5170000A461CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A14ED44C14E516FF00A461CB /* Project object */;
+}

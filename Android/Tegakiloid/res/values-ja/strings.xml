@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">テガキロイド(試作Ver0.0.0.1)</string>
+    <string name="ipaddress_title">IPアドレス</string>
+    <string name="ipaddress_summary">JobPluginを使用しているPCのIPアドレスを設定してください。</string>
+    <string name="ipaddress_dialog_title">IPアドレス設定</string>
+    <string name="ipaddress_dialog_message">IPアドレスを入力してください\n(例.127.0.0.1)</string><string name="ipaddress_default_value">127.0.0.1</string>
+    <string name="port_title">ポート番号</string>
+    <string name="port_summary">JobPluginで指定したポート番号を設定してください。</string>
+    <string name="port_dialog_title">ポート番号設定</string>
+    <string name="port_dialog_message">通信に使用するポート番号を入力してください。</string>
+    
+    <string name="port_default_value">3939</string>
+</resources>
