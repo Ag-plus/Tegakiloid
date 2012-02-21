@@ -65,9 +65,9 @@ Ag++++++
 	Tegakiloid.apkをAndroid端末のSDカード上にコピーします。
 	ファイルブラウザアプリ(アストロなど)でapkファイルをタップすると
 	インストールが始まります。
-	作業が面倒な場合はhttps://github.com/Ag-plus/Tegakiloid/blob/master/Android/Tegakiloid.apkでも同じものを配布していますので
+	作業が面倒な場合は"https://github.com/Ag-plus/Tegakiloid/blob/master/Android/Tegakiloid.apk?raw=true"でも同じものを配布していますので
 	こちらからインストールして下さい。
-	なお、https://github.com/Ag-plus/Tegakiloid/tree/master/iOSにiOS版の信号送信アプリのソースも置いてありますので
+	なお、"https://github.com/Ag-plus/Tegakiloid/tree/master/iOS"にiOS版の信号送信アプリのソースも置いてありますので
 	iOSアプリ開発のできる環境をお持ちの方はiOSでもTEGAKILOIDを使用することができます。
 
 	(2)
